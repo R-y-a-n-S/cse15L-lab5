@@ -33,5 +33,15 @@ git push
 The second bash script check if the code passed all the Junit tests. Eventually, the script add, commit and push the updated version to github repo.
 To run the two bash script, just use command `bash scriptName.sh`, where scriptName is the name of the bash script. 
 
+In summary, the commands should look something like this:
+
+```
+ssh myaccount@ieng6.ucsd.edu
+bash scriptOne.sh
+nano ListExamples.java
+%Then manually change the bug in nano
+bash scriptTwo.sh
+```
+
 
 
